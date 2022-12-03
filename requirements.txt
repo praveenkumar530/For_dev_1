@@ -1,0 +1,24 @@
+1. Need 3 end points for authentication.(JWT)
+    /auth  token expirty time 15min 
+    /refresh token expiry time 6hr 
+    /register for registring new user 
+
+    with the help of refresh token we will be updating the auth token when expired. 
+
+2. Need to have google authentication in the sign in 
+3. navigate to user form - http://localhost:3000/inputform 
+    user can enter all the details and should save in the datebase (consider email id has the unique key to track the records)
+
+4. Images we upload in input form should be  minimized to best size without loosing clarity. 
+5. navigte to http://localhost:3000/payment  for payment changes. Add api calls for these too.
+
+
+
+
+
+Links i was referring to for auth 
+https://www.youtube.com/watch?v=nI8PYZNFtac&list=PL0Zuz27SZ-6PRCpm9clX0WiBEMB70FWwd&index=4 
+
+
+
+
