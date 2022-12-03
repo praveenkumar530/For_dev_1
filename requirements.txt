@@ -9,8 +9,14 @@
 3. navigate to user form - http://localhost:3000/inputform 
     user can enter all the details and should save in the datebase (consider email id has the unique key to track the records)
 
-4. Images we upload in input form should be  minimized to best size without loosing clarity. 
+4. Images we upload in input form should be  minimized to best size without loosing clarity. Upload the images into Heroku as mentioned.
 5. navigte to http://localhost:3000/payment  for payment changes. Add api calls for these too.
+6. we should be saving payment info into its own collection.
+
+MongoDb collections:
+1. users 
+2. payment 
+3. user details (use email id as unique key here)
 
 
 
